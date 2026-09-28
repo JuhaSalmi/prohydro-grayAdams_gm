@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.5.2.0" runtimeid="3.5.20.40" libversion="4.5.0.0" compiler="3.5.20.60" lmm="3.5.20.60" profile="ctrlX PLC 3.6.3+" settings="SupportOPCUA, IncludeExecutables, XmlIncludeComments, XmlIncludeExecutables, LayoutCalculator=CompatibilityClientSideLayoutCalculator" />
+    <ProjectInfo name="GM6000" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_DINT" size="4" swapsize="4" typeclass="DInt" iecname="DINT" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="AlarmManager">
+        <Node name="AlarmGlobals">
+          <Comment> This GVL must be initialized before GVL "GloballyForAlarmStorage", because this GVL
+ causes the initialization of the variable g_stApplicationName.
+ We only need the date and time format pattern for the converted code, therefore
+ we can (and must!) omit the rest from conversion
+ We must not use an attribute to hide this GVL, because there are some variables,
+ that a developer might use. Additionally it is necessary, that this GVL in considered
+ in the data server, but not visible for the user, because some variables of this GVL
+ are added to the data source selection implicitely and for this purpose it is necessary,
+ that this GVL is a part of the available items tree.</Comment>
+          <Node name="g_diAlarmStateTransitionCounter" type="T_DINT" access="Read">
+            <Comment> A global counter, that counts all the alarm state transitions, that occur.
+ Needed by the alarm table for optimized painting. If this counter doesn't
+ change during subsequent paint calls, the same alarms have been active and
+ in the same state.
+ Conditional show attribute must not be present for this variable, because
+ some architectural problems it can lead in a not correct regitration
+CHECKED_OMIT</Comment>
+          </Node>
+          <Node name="g_diAlarmStorageCounter" type="T_DINT" access="Read">
+            <Comment> A similar counter, that will be incremented each time an alarm is written
+ into the alarm storage. This allows the alarm table to detect, whether
+ some kind of processing has to be done, because there exists a new alarm.
+ Conditional show attribute must not be present for this variable, because
+ some architectural problems it can lead in a not correct regitration
+CHECKED_OMIT</Comment>
+          </Node>
+          <Node name="g_iAlarmStorageClear" type="T_INT" access="Read">
+            <Comment> Counts the times when the alarm table has been deleted.
+CHECKED_OMIT</Comment>
+          </Node>
+        </Node>
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
