@@ -92,7 +92,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "328e5bdb-9dbb-406f-b810-710af3f18281",
+                      "ObjectGuid": "37dd229c-c586-4083-b1a0-b9b32313d6f4",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -123,7 +123,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "ba7edc6a-a2a2-4567-ab18-f35029c07dfa",
+                      "ObjectGuid": "ba026377-931a-452c-b99f-005a7e1946a1",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -154,7 +154,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "b02bfc2e-99ee-48ac-bc84-1ab90e392b14",
+                      "ObjectGuid": "a2430dd2-f525-41f1-accd-8ac9161e0d9a",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -185,7 +185,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "bcbf4c72-f398-423a-a03c-fa7d1a712f56",
+                      "ObjectGuid": "bb7e71ba-4d87-460f-b09e-df8beb4b81ce",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -1447,6 +1447,21 @@
                   "ModuleId": null,
                   "Version": null,
                   "ObjectGuid": "3bfdfd37-2341-469a-97e8-e8b3bba1080c",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "AxisState",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "bc43ff37-4f12-4dcd-a17f-680f1dfb92cd",
                   "SlotIndex": 0,
                   "Inputs": null,
                   "Outputs": null,
@@ -2904,6 +2919,21 @@
                   "StructuralItems": []
                 }
               ]
+            },
+            {
+              "Name": "Trace",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.TraceObject.TraceObject",
+              "Type": 0,
+              "Id": null,
+              "ModuleId": null,
+              "Version": null,
+              "ObjectGuid": "4b6d0595-dcdd-49f4-98f0-85ce7f252346",
+              "SlotIndex": 0,
+              "Inputs": null,
+              "Outputs": null,
+              "StructuralItems": []
             }
           ]
         }
@@ -5733,7 +5763,7 @@
               "Inputs": [
                 {
                   "Id": 2952855568,
-                  "Name": "",
+                  "Name": "Application.SERVO_DRIVES_PLCOPEN.Axis2_StatusWord",
                   "IecAddress": "%IW152",
                   "Description": "",
                   "Descriptions": []

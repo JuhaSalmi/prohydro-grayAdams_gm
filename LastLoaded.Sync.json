@@ -6,10 +6,10 @@
   "Configuration": "appdata",
   "Solution": "DefaultSolution",
   "ControllerGuid": "a3c4a3fe-7416-4e35-8b13-90f495c9b3a4",
-  "LastChange": 639259379697174083,
+  "LastChange": 639263605124089482,
   "MachineName": "THINKPAD-JUHA",
   "UserName": "JuhaSalmi",
-  "ProjectCompleteFilename": "C:\\Projects\\Asiakas\\ProHydro\\Gray Adams\\GM 2026\\SW\\GM6000.project",
+  "ProjectCompleteFilename": "C:\\Projects\\Asiakas\\ProHydro\\Gray Adams\\GM 2026\\SW\\PLC\\GM6000.project",
   "CompilerVersion": {
     "Major": 3,
     "Minor": 5,
@@ -50,7 +50,7 @@
     "THINKPAD-JUHA:JuhaSalmi": {
       "MachineName": "THINKPAD-JUHA",
       "UserName": "JuhaSalmi",
-      "ProjectCompleteFilename": "C:\\Projects\\Asiakas\\ProHydro\\Gray Adams\\GM 2026\\SW\\GM6000.project"
+      "ProjectCompleteFilename": "C:\\Projects\\Asiakas\\ProHydro\\Gray Adams\\GM 2026\\SW\\PLC\\GM6000.project"
     }
   },
   "CompileinfoChecksum": null,
