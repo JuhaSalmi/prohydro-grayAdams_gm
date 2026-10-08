@@ -92,7 +92,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "37dd229c-c586-4083-b1a0-b9b32313d6f4",
+                      "ObjectGuid": "7b63fdbf-f15a-4ce4-93a8-02d21d77f5cc",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -123,7 +123,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "ba026377-931a-452c-b99f-005a7e1946a1",
+                      "ObjectGuid": "4f49fca5-4a95-4229-804a-c9ee3b81b475",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -154,7 +154,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "a2430dd2-f525-41f1-accd-8ac9161e0d9a",
+                      "ObjectGuid": "b2e403ae-1143-4c24-88a6-6809603d61a9",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -185,7 +185,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "bb7e71ba-4d87-460f-b09e-df8beb4b81ce",
+                      "ObjectGuid": "7d169cbe-9eb0-48b9-b318-14b72dfe9340",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -838,6 +838,21 @@
                       "ModuleId": null,
                       "Version": null,
                       "ObjectGuid": "b1f40a6d-9eeb-49c5-a5e2-8db46ed428ba",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": null,
+                      "StructuralItems": []
+                    },
+                    {
+                      "Name": "FILES",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.DefaultNavigators.FolderObject",
+                      "Type": 0,
+                      "Id": null,
+                      "ModuleId": null,
+                      "Version": null,
+                      "ObjectGuid": "73556f55-8ace-4498-aeb7-f623bf183be9",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -1891,21 +1906,6 @@
                       "StructuralItems": []
                     },
                     {
-                      "Name": "FILES",
-                      "IconName": null,
-                      "EcadId": null,
-                      "TypeName": "_3S.CoDeSys.DefaultNavigators.FolderObject",
-                      "Type": 0,
-                      "Id": null,
-                      "ModuleId": null,
-                      "Version": null,
-                      "ObjectGuid": "73556f55-8ace-4498-aeb7-f623bf183be9",
-                      "SlotIndex": 0,
-                      "Inputs": null,
-                      "Outputs": null,
-                      "StructuralItems": []
-                    },
-                    {
                       "Name": "LASER",
                       "IconName": null,
                       "EcadId": null,
@@ -1966,6 +1966,21 @@
                       "StructuralItems": []
                     }
                   ]
+                },
+                {
+                  "Name": "Trace_Glue",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.TraceObject.TraceObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "f8d7510b-43c2-4dca-afd1-7e761b0f2015",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
                 }
               ]
             },
