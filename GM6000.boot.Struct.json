@@ -174,6 +174,21 @@
                       "Inputs": null,
                       "Outputs": null,
                       "StructuralItems": []
+                    },
+                    {
+                      "Name": "Param_PRG",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.TaskObject.TaskPOUCallObject",
+                      "Type": 0,
+                      "Id": null,
+                      "ModuleId": null,
+                      "Version": null,
+                      "ObjectGuid": "977edb81-f28c-47e0-ace1-6a9288f6adc7",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": null,
+                      "StructuralItems": []
                     }
                   ]
                 },
@@ -609,6 +624,52 @@
                       "ModuleId": null,
                       "Version": null,
                       "ObjectGuid": "f1564f78-3ab8-4258-b13a-3d9157ad6054",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": null,
+                      "StructuralItems": []
+                    }
+                  ]
+                },
+                {
+                  "Name": "Parameters",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.DefaultNavigators.FolderObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "ad954b22-f7f6-40c9-82e4-9d8eca1eb7fb",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": [
+                    {
+                      "Name": "E_ParamCmd",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.DUTObject.DUTObject",
+                      "Type": 0,
+                      "Id": null,
+                      "ModuleId": null,
+                      "Version": null,
+                      "ObjectGuid": "ac514bdf-029c-4286-aa13-20a677ea9771",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": null,
+                      "StructuralItems": []
+                    },
+                    {
+                      "Name": "ST_ParamGeneral",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.DUTObject.DUTObject",
+                      "Type": 0,
+                      "Id": null,
+                      "ModuleId": null,
+                      "Version": null,
+                      "ObjectGuid": "7c28c2cb-3c5c-4a5e-9c79-95ed6b75be0a",
                       "SlotIndex": 0,
                       "Inputs": null,
                       "Outputs": null,
@@ -1646,6 +1707,66 @@
                           "Inputs": null,
                           "Outputs": null,
                           "StructuralItems": []
+                        },
+                        {
+                          "Name": "SetPassword",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.MethodObject.POUMethodObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "df97f287-15ea-48c9-8d85-d8402880f643",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
+                        },
+                        {
+                          "Name": "ClearPw",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.MethodObject.POUMethodObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "2c2ba8d2-099e-4068-8ecc-ecd0df4fe98e",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
+                        },
+                        {
+                          "Name": "AskConfirm",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.MethodObject.POUMethodObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "9405333b-abd2-4681-8af8-cd8adcfe8e29",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
+                        },
+                        {
+                          "Name": "Confirm",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.MethodObject.POUMethodObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "d58192cf-98da-4ecd-b618-c061c36dd115",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
                         }
                       ]
                     },
@@ -1734,6 +1855,68 @@
                           "ModuleId": null,
                           "Version": null,
                           "ObjectGuid": "4669a6c6-1afd-44ed-8e27-8968f4315de9",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "RecipeManagement",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.DefaultNavigators.FolderObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "085d2256-5b5c-44a1-ace0-30894393bc85",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": [
+                    {
+                      "Name": "FB_ParamStore",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                      "Type": 0,
+                      "Id": null,
+                      "ModuleId": null,
+                      "Version": null,
+                      "ObjectGuid": "fa0a665c-be98-4db5-9651-110ad51d8fe6",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": null,
+                      "StructuralItems": [
+                        {
+                          "Name": "mFinish",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.MethodObject.POUMethodObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "7da29237-ef0d-46fd-a27c-3d3901e7300f",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
+                        },
+                        {
+                          "Name": "mBackup",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.MethodObject.POUMethodObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "de35fe43-98be-46f7-be04-15f30f0bf397",
                           "SlotIndex": 0,
                           "Inputs": null,
                           "Outputs": null,
@@ -2481,6 +2664,21 @@
                       "Inputs": null,
                       "Outputs": null,
                       "StructuralItems": []
+                    },
+                    {
+                      "Name": "Param_PRG",
+                      "IconName": null,
+                      "EcadId": null,
+                      "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                      "Type": 0,
+                      "Id": null,
+                      "ModuleId": null,
+                      "Version": null,
+                      "ObjectGuid": "cb2e5520-f047-4dd8-be1c-3e4678d5407c",
+                      "SlotIndex": 0,
+                      "Inputs": null,
+                      "Outputs": null,
+                      "StructuralItems": []
                     }
                   ]
                 },
@@ -2676,6 +2874,21 @@
                   "ModuleId": null,
                   "Version": null,
                   "ObjectGuid": "f3b4e436-c66a-47ee-9e3f-df8bab6dc098",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "GVL_Param",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.GVLObject.GVLObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "f6d54e1c-0cc0-43dc-aef6-299014fcc7de",
                   "SlotIndex": 0,
                   "Inputs": null,
                   "Outputs": null,
@@ -3282,6 +3495,36 @@
                           "Inputs": null,
                           "Outputs": null,
                           "StructuralItems": []
+                        },
+                        {
+                          "Name": "DLG_P7_SetPassword",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.VisualObject.VisualObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "fe7fc2d2-ab16-459f-98c9-0a0842547f49",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
+                        },
+                        {
+                          "Name": "DLG_P8_Confirm",
+                          "IconName": null,
+                          "EcadId": null,
+                          "TypeName": "_3S.CoDeSys.VisualObject.VisualObject",
+                          "Type": 0,
+                          "Id": null,
+                          "ModuleId": null,
+                          "Version": null,
+                          "ObjectGuid": "0a2e037b-ca79-4688-b6d7-327c87e3750f",
+                          "SlotIndex": 0,
+                          "Inputs": null,
+                          "Outputs": null,
+                          "StructuralItems": []
                         }
                       ]
                     },
@@ -3605,6 +3848,37 @@
               "Inputs": null,
               "Outputs": null,
               "StructuralItems": []
+            },
+            {
+              "Name": "Recipe Manager",
+              "IconName": null,
+              "EcadId": null,
+              "TypeName": "_3S.CoDeSys.RecipeManObject.RecipeManObject",
+              "Type": 0,
+              "Id": null,
+              "ModuleId": null,
+              "Version": null,
+              "ObjectGuid": "b8c1a028-666f-4144-8f35-a41031465524",
+              "SlotIndex": 0,
+              "Inputs": null,
+              "Outputs": null,
+              "StructuralItems": [
+                {
+                  "Name": "Parameters",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.RecipeManObject.RecipeDefinitionObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "4e82665c-e6ed-4d38-bdee-7a889823ef20",
+                  "SlotIndex": 0,
+                  "Inputs": null,
+                  "Outputs": null,
+                  "StructuralItems": []
+                }
+              ]
             }
           ]
         }
